@@ -15,7 +15,6 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -55,11 +54,16 @@ body {
 }
 .wrapper {
 	min-width: 500px;
-	max-width: 1910px;
 	margin: 0 auto;
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
+}
+div.background {width:100%;
+height: 100%;
+background-color: gray;
+    position: absolute;
+    opacity: 0.2;
 }
 
 /* Header
@@ -93,7 +97,6 @@ body {
     font-size: 15px;
     position: absolute;
     width: 100%;
-
 }
 
 /* Middle
@@ -111,12 +114,12 @@ body {
 .namesite {color: lightyellow;
     text-align: center;
     font-family: 'Kanit', sans-serif;
-    font-size: 75px;
+    font-size: 100px;
 }
 .tw {
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    font-size: 10px;
+    font-size: 30px;
 }
 
 .text {
@@ -138,10 +141,9 @@ body {
 /* Footer
 -----------------------------------------------------------------------------*/
 .footer_bg {
-    margin: -60px auto 0;
+    margin: -100px auto 0;
     min-width: 500px;
-    /*max-width: 1910px;*/
-    height: 60px;
+    height: 100px;
     background-color: #fff6c1;
     position: relative;
     opacity: 0.2;
@@ -152,14 +154,15 @@ body {
     width: 100%;
     padding-left: 30%;
     padding-top: 15px;
+    font-size: 25px;
     
 }
 .footer_text {
     position: relative;
-    margin: -60px auto 0;
-    height: 60px;
+    margin: -100px auto 0;
+    height: 100px;
     padding: 10px;
     min-width: 500px;
     font-family: 'Roboto', sans-serif;
-    font-size: 15px;
+    font-size: 25px;
 }
