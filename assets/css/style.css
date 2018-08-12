@@ -51,6 +51,7 @@ body {
     background: url('../bg.jpg');
     background-size: cover;
 	line-height: 1;
+    
 }
 .wrapper {
 	min-width: 500px;
@@ -141,9 +142,9 @@ background-color: gray;
 /* Footer
 -----------------------------------------------------------------------------*/
 .footer_bg {
-    margin: -100px auto 0;
+    margin: -150px auto 0;
     min-width: 500px;
-    height: 100px;
+    height: 150px;
     background-color: #fff6c1;
     position: relative;
     opacity: 0.2;
@@ -159,8 +160,8 @@ background-color: gray;
 }
 .footer_text {
     position: relative;
-    margin: -100px auto 0;
-    height: 100px;
+    margin: -150px auto 0;
+    height: 150px;
     padding: 10px;
     min-width: 500px;
     font-family: 'Roboto', sans-serif;
